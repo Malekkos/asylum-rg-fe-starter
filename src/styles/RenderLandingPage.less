@@ -41,11 +41,39 @@
     font-size: 1.2rem;
 }
 
-// .graphs-section {
-//  ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
-// }
+.graphs-section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.grant-rate-nationality, .grant-rate-office, .grant-rate-time {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 25%;
+}
+.grant-rate-office, .grant-rate-time {
+    width: 34%
+}
+
+.graph-img {
+    width: 45%;
+    margin-bottom: 2rem;
+    // height: 20%;
+}
+
+.graph-text {
+    font-size: 19px;
+    margin-bottom: 2rem;
+}
 
 .view-more-data-btn-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
     height: 44px;
     width: 180px;
     margin: 0 auto;
@@ -75,9 +103,50 @@
     font-size: 1.4rem;
 }
 
-// .bottom-section {
-//      ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
-// }
+.bottom-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-strong {
+    font-size: 35px;
+    margin: 5rem 0;
+}
+
+.bottom-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bottom-explanation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-;
+    width: 80%
+}
+
+.bottom-section {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 90%;
+}
+// Different font for the percents
+.bottom-percent {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-text {
+    font-size: 17px;
+    width: 75%;
+}
 
 .back-to-top {
     width: 8%;

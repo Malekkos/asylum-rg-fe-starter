@@ -1,0 +1,33 @@
+Home Page / Landing
+ ~~ Page breaks at 1025px width
+ ~~ Links at the bottom, both the privacy-policy destination and the sign-up destination are led to a 404 PAGE NOT FOUND
+ ~~ Link to top("Back To Top") needs styling re-adjustments
+ ~~ Header in main needs styling re-adjustments
+
+Graphs Page
+ ~~ Page breaks at 1025px width
+ ~~ Doesn't seem to be any data display'd when cycling through the cities
+ ~~ Zoom in & Zoom out buttons are broken, need a limit
+ ~~ Others might work, need data to check
+
+ \/\/\/\/\/ Comparing the Projects \/\/\/\/\/
+
+Home Page / Landing
+ ~~ Both have poor stylings for smaller width's
+ ~~ Need three new images displayed, with corresponding descriptions
+ ~~ Need a "Download the Data" option
+ ~~ Whole new section titled "Systemic Disparity Insights"
+ ~~ Section contains three metrics, preceded be explanations of what the metrics mean
+ ~~ Read more link
+ ~~ Same links are broken on the footer
+
+ Graphs Page
+ ~~ Both have poor stylings for smaller width's
+ ~~ Concurrent bug with the zoom in and zoom out being... too effective, I guess
+ ~~ Need to bring in the data to be used. Probably a local source.
+ ~~ Should maybe make the list at the bottom an expandable object
+ ~~ Heat maps don't change despite being different cities. Intentional?
+ ~~ When using the selected zoom tool, it pop-ups a "double click to zoom back out". I think this should be a concurrent thing that lingers, cus people can miss/forget
+ ~~ Box select and lasso select seem to only work on the map, they shouldn't appear on the graph section(time series).
+ ~~ Reset either doesn't work or doesn't work like how I expect it to, aka it might be doing something else I'm not seeing
+ ~~ I have no idea what the Query box's do, if anything
