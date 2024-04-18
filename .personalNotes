@@ -31,3 +31,17 @@ Home Page / Landing
  ~~ Box select and lasso select seem to only work on the map, they shouldn't appear on the graph section(time series).
  ~~ Reset either doesn't work or doesn't work like how I expect it to, aka it might be doing something else I'm not seeing
  ~~ I have no idea what the Query box's do, if anything
+ ~~ Styling on box's is not the same width, looks ugly.
+
+
+ First Ticket TODOS:
+    ~ When conforming to smaller devices, I should minimize all the images and content, as well as the text, into a slideshow type of thing. I think that would be a fun thing to do and also LEARN how to do.
+    ~ Fix the page breaks.
+    ~ Possibly remove the broken links; only issue is they might be tied to unit tests.
+    ~ It would be nice to link of the metrics that are displayed to actual requests from, say, an api, but I don't 1. Know if its an api source or 2. if so, what api?
+    ~ Add the download the Data button. IDK what its gonna download(or how TO download)
+    ~ Make the styling a bit more reactive; There ARE some hover elements, but they are few and far inbetween. Also, I can add some bolding to some of the lines to really make it readable.
+    ~ cont. What do I mean by readable? Well, I still haven't read the resource, and I've looked at this page like 5 seperate times. It's hard to grab my attention.
+    ~ cont 2. I should remember what it taught me and not go overboard, this is a corporate site, I should treat it like one.
+    ~ In the big text blob, we can include links to the literal places its talking about, they are their own... {/place} things, you know what I mean?
+    ~ Back to top DEFINITELY needs styling.
