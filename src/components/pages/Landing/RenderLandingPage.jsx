@@ -101,6 +101,10 @@ function RenderLandingPage(props) {
       </div>
       <div className="bottom-container">
         {/* Bottom Section: Add code here for the graphs section for your first ticket */}
+        {/* 
+        Only issue worth mentioning is that the text contents are kinda blocky, I don't
+        know how they got it to look natural in the example image and page.
+        */}
         <div className="bottom-section">
           <strong className="bottom-strong">Systemic Disparity Insights</strong>
           <div className="bottom-explanation">
@@ -129,6 +133,13 @@ function RenderLandingPage(props) {
             </div>
           </div>
         </div>
+        <Button
+          type="default"
+          style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
+          onClick={() => console.log('time to... read more?')}
+        >
+          Read More
+        </Button>
         <p onClick={() => scrollToTop()} className="back-to-top">
           Back To Top ^
         </p>
