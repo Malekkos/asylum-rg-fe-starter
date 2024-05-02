@@ -24,7 +24,7 @@ import reducer from './state/reducers';
 import { colors } from './styles/data_vis_colors';
 
 // import for the external verification service.
-import { Auth0ProviderWithHistory } from './auth/autho0-provider-with-history';
+import Auth0ProviderWithHistory from './auth/autho0-provider-with-history';
 
 const { primary_accent_color } = colors;
 
