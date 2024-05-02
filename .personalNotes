@@ -45,3 +45,9 @@ Home Page / Landing
     ~ cont 2. I should remember what it taught me and not go overboard, this is a corporate site, I should treat it like one.
     ~ In the big text blob, we can include links to the literal places its talking about, they are their own... {/place} things, you know what I mean?
     ~ Back to top DEFINITELY needs styling.
+
+
+
+
+ Third Ticket changes(to keep track):
+    ~ Wrapping the componenet App in Auth0Provider so it can work
