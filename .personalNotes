@@ -51,3 +51,4 @@ Home Page / Landing
 
  Third Ticket changes(to keep track):
     ~ Wrapping the componenet App in Auth0Provider so it can work
+    ~ Auth files created in SRC and populated with data to make it work(history function)
