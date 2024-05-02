@@ -52,3 +52,6 @@ Home Page / Landing
  Third Ticket changes(to keep track):
     ~ Wrapping the componenet App in Auth0Provider so it can work
     ~ Auth files created in SRC and populated with data to make it work(history function)
+    ~ Created a login button under src/components/common
+    ~ Created a signup button under src/components/common
+    ~ Created a logout button under src/components/common
