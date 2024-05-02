@@ -55,3 +55,4 @@ Home Page / Landing
     ~ Created a login button under src/components/common
     ~ Created a signup button under src/components/common
     ~ Created a logout button under src/components/common
+    ~ Created a authentication button combining login and logout under src/components/common
