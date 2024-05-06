@@ -26,6 +26,10 @@ import { colors } from './styles/data_vis_colors';
 // import for the external verification service.
 import Auth0ProviderWithHistory from './auth/autho0-provider-with-history';
 
+import { useAuth0 } from '@auth0/auth0-react';
+import LoadingComponent from './components/common/LoadingComponent';
+import Profile from './components/common/profile';
+
 const { primary_accent_color } = colors;
 
 const store = configureStore({ reducer: reducer });
@@ -44,6 +48,12 @@ ReactDOM.render(
 
 export function App() {
   const { Footer, Header } = Layout;
+  const { isLoading } = useAuth0();
+
+  if (isLoading) {
+    <LoadingComponent message="Logging in..." />;
+  }
+
   return (
     <Layout>
       <Header
@@ -59,6 +69,7 @@ export function App() {
       <Switch>
         <Route path="/" exact component={LandingPage} />
         <Route path="/graphs" component={GraphsContainer} />
+        <Route path="/profile" component={Profile} />
         <Route component={NotFoundPage} />
       </Switch>
       <Footer
