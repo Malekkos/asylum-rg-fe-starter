@@ -29,6 +29,7 @@ import Auth0ProviderWithHistory from './auth/autho0-provider-with-history';
 import { useAuth0 } from '@auth0/auth0-react';
 import LoadingComponent from './components/common/LoadingComponent';
 import Profile from './components/common/profile';
+import ProtectedRoute from './auth/protected-route';
 
 const { primary_accent_color } = colors;
 
@@ -68,8 +69,8 @@ export function App() {
       </Header>
       <Switch>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/graphs" component={GraphsContainer} />
-        <Route path="/profile" component={Profile} />
+        <ProtectedRoute path="/graphs" component={GraphsContainer} />
+        <ProtectedRoute path="/profile" component={Profile} />
         <Route component={NotFoundPage} />
       </Switch>
       <Footer

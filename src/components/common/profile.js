@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
-import LoadingComponenet from './LoadingComponent';
+import { useAuth0 } from '@auth0/auth0-react';
 
 const Profile = () => {
   const { user } = useAuth0();
@@ -32,6 +31,4 @@ const Profile = () => {
   );
 };
 
-export default withAuthenticationRequired(Profile, {
-  onRedirecting: () => <LoadingComponenet message="Test message" />,
-});
+export default Profile;
