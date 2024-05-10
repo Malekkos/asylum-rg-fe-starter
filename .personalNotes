@@ -57,3 +57,4 @@ Home Page / Landing
     ~ Created a logout button under src/components/common
     ~ Created a authentication button combining login and logout under src/components/common
     ~ Created the actual button under src/components/common
+    ~ Added Proctected Routes via a componenet in auth
