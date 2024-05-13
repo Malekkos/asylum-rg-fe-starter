@@ -5,10 +5,14 @@ import Logo from '../../styles/Images/WhiteLogo.png';
 import { colors } from '../../styles/data_vis_colors';
 
 import AuthNav from '../common/auth-nav';
+import { useAuth0 } from '@auth0/auth0-react';
+import ProfileNav from '../common/profile-nav';
 
 const { primary_accent_color } = colors;
 
 function HeaderContent() {
+  const { isAuthenticated } = useAuth0();
+
   return (
     <div
       style={{
@@ -24,6 +28,7 @@ function HeaderContent() {
         </a>
       </div>
       <div>
+        {isAuthenticated ? <ProfileNav /> : null}
         <AuthNav />
         <Link to="/" style={{ color: '#E2F0F7', paddingRight: '75px' }}>
           Home
